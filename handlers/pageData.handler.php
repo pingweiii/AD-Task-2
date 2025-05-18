@@ -1,5 +1,4 @@
 <?php
-
 function getWorkoutData(){
     $workouts = [
         "chest" => [
@@ -62,6 +61,9 @@ function getWorkoutData(){
             ]
         ]
     ];
+
+    return $workouts;
+    
 }
 function getWorkoutGroup($group){
     $workouts = getWorkoutData();
