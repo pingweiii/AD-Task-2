@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . '/handlers/pageData.handler.php';
+require_once __DIR__ . '/../handlers/pageData.handler.php';
 
 $selectedMuscleGroup = $_POST['muscle_group'] ?? 'chest';
 $workout = getWorkoutGroup($selectedMuscleGroup);
@@ -19,13 +19,14 @@ $groupName = $workout['name'];
         <h1>Your <?php echo $groupName; ?> Workout</h1>
         <p>Here is your Workout</p>
         <div class="workout-list">
-            <?php foreach ($workout['exercises'] as $exercises => $sets); ?>
-            <div class="exercise">
-                <span class="exercise-name"> <?php echo $exercises ?> </span>
-                <span class="exercise-sets"> <?php echo $sets ?> </span>
-            </div> 
+            <?php foreach ($workout['exercises'] as $exercise => $sets): ?>
+                <div class="exercise">
+                    <span class="exercise-name"><?php echo $exercise; ?></span>
+                    <span class="exercise-sets"><?php echo $sets; ?></span>
+                </div> 
+            <?php endforeach; ?>
         </div>
-        <a href="../index.php" class="back-btn"> Choose Other Muscle </a>
+        <a href="../index.php" class="back-btn">Choose Other Muscle</a>
     </div>
 </body>
 </html>
