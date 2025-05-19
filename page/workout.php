@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . '/../handlers/pageData.handler.php';
+require_once  __DIR__ . '/../utils/getworkoutGroup.php';
 
 $selectedMuscleGroup = $_POST['muscle_group'] ?? 'chest';
 $workout = getWorkoutGroup($selectedMuscleGroup);
