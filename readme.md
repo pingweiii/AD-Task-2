@@ -21,7 +21,7 @@
 
 ![](https://visit-counter.vercel.app/counter.png?page=pingweiii/AD-Task-1)
 
-[![wakatime](https://wakatime.com/badge/user/d866e803-c5cd-411c-bd93-559d93f72d49/project/6ec03226-625b-4935-8279-29eef2bc34d1.svg)](https://wakatime.com/badge/user/d866e803-c5cd-411c-bd93-559d93f72d49/project/6ec03226-625b-4935-8279-29eef2bc34d1)
+[![wakatime](https://wakatime.com/badge/user/d866e803-c5cd-411c-bd93-559d93f72d49/project/d98c5dd2-e199-4c94-b914-9f31db2eec5b.svg)](https://wakatime.com/badge/user/d866e803-c5cd-411c-bd93-559d93f72d49/project/d98c5dd2-e199-4c94-b914-9f31db2eec5b)
 ---
 
 <br />
@@ -60,7 +60,7 @@
 
 Description of the project in details.
 
-This program shows the basic use of looping, declaration and conditional statements
+This program uses functions, arrays, dictionaries, and fragmentation
 
 ### Key Components
 
@@ -125,6 +125,6 @@ AD-ProjectName
 
 <!-- TODO: Add References -->
 
-| Title                 | Purpose                                                                       | Link                                          |
-| --------------------- | ----------------------------------------------------------------------------- | --------------------------------------------- |
-| Conditional Statments | It helps me how to use the conditional statements                             | https://www.w3schools.com/php/php_if_else.asp |
+| Title                 | Purpose                                  | Link                         |
+| --------------------- | ------------------------------------------------------------------------| --------------------------------------------- |
+| Fragmentation         | It shows me how to use the fragmentation | https://chatgpt.com/  |
