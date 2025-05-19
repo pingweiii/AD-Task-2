@@ -1,6 +1,6 @@
 <?php
-function getWorkoutData(){
-    $workouts = [
+
+return [
         "chest" => [
             "name" => "Chest",
             "exercises" => [
@@ -10,7 +10,6 @@ function getWorkoutData(){
                 "Push ups" => "2 sets to failure"
             ]
         ],
-
         "back" => [
             "name" => "Back",
             "exercises" => [
@@ -20,16 +19,15 @@ function getWorkoutData(){
                 "Deadlifts" => "2 sets of 6-8 reps"
             ]
         ],
-
         "legs" => [
-            "name" => "Legs",
-            "exercises" => [
-                "Squats" => "4 sets of 8-12 reps",
-                "Lunges" => "3 sets of 10 reps per leg",
-                "Leg Press" => "3 sets of 10-12 reps",
-                "Calf Raises" => "3 sets of 15-20 reps"
-            ]
-        ],
+                "name" => "Legs",
+                "exercises" => [
+                    "Squats" => "4 sets of 8-12 reps",
+                    "Lunges" => "3 sets of 10 reps per leg",
+                    "Leg Press" => "3 sets of 10-12 reps",
+                    "Calf Raises" => "3 sets of 15-20 reps"
+                ]
+            ],
 
         "arms" => [
             "name" => "Arms",
@@ -60,13 +58,4 @@ function getWorkoutData(){
                 "Crunches" => "3 sets of 15-20 reps"
             ]
         ]
-    ];
-
-    return $workouts;
-    
-}
-function getWorkoutGroup($group){
-    $workouts = getWorkoutData();
-    return $workouts[$group] ?? $workouts['chest'];
-}
-?>
+];
